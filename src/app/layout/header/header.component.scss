@@ -2,24 +2,12 @@
   display: flex;
   align-items: center;
   background-color: black;
-  margin: auto auto;
   width: 100%;
   text-align: center;
-  justify-content: center;
-  
-  
 }
 
-.header a {
-  display: flex;
-  align-items:center;
-  text-decoration: none;
-  color: black;
-  border-right: 1.5px  solid #d3b1a78f;
-  border-radius: 1px;
-  padding: 0px 25px 0px 0px;
-  margin: 0px 0px 0px 0px;
-  
+.img {
+  margin-left: 0px;
 }
 
 .header h1{
@@ -31,13 +19,15 @@
 }
 
 .header .logo {
-  max-height: 100px;
+  max-height: 100%;
+  width: 20%;
+
 }
 
 .header .title-group {
   padding-left: 25px;
-  display: flex;
-  align-items: center;
+  width: 80%;
+  text-align: center;
 
 }
 

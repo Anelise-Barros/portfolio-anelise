@@ -33,7 +33,7 @@
 
 .perfil{
   position: relative;
-  display: inline-block;
+ display: inline-block;
   top: 30%;
   font-size: 1.5rem;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -75,11 +75,21 @@ p {
 .sobre{
   padding-left: 160px;
   padding-right: 160px;
-  text-align: center;
+  text-align: justify;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   line-height: 1.5em;
   color: #292b31;
 }
+
+.lista{
+  padding-left: 160px;
+  padding-right: 160px;
+  text-align: justify;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 1.5em;
+  color: #292b31;
+}
+
 
 .tec{
   display: flex;
