@@ -5,9 +5,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #d3b1a7c8;
   background-color: black;
   padding: 10px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   > span {
     font-size: 1.1rem;
     font-weight: 300;
@@ -19,9 +20,13 @@ h2, address, p, .links{
   justify-content: center;
   margin: 0px;
   padding: 5px;
-  justify-content: center;
 }
 
-.git{
+.git {
   padding-left: 10px;
 }
+
+.mail {
+  padding-left: 10px;
+}
+
