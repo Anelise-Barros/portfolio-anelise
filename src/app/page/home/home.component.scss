@@ -4,14 +4,29 @@
   border-radius: 10px;
 }
 
+
 .apresentacao{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  flex-direction: row;
   padding-top: 35px;
   padding-bottom: 20px;
+  padding-left: 160px;
+  padding-right: 160px;
 }
 
+.ordem{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+  
+
+
 .name{
+  width: 25vw;
   top: 20%;
   display: flex;
   flex-direction: row;
@@ -19,25 +34,30 @@
   font-size: 2rem;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: #292b31;
+  margin-left: 10%;
+  
+ 
+  
 }
 .name1{
   width: 25vw;
-  display: flex;
-  flex-direction: column;
+  display: inline;
   position: relative;
   font-size: 2rem;
   font-weight: bold;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: #292b31;
+  
 }
 
 .perfil{
   position: relative;
- display: inline-block;
+  display: inline;
   top: 30%;
   font-size: 1.5rem;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: #292b31;
+
 }
 
 p {
@@ -57,8 +77,8 @@ p {
   border-radius: 40px;
   width: 18%;
   height: 5vh;
-  background-color: #bb2649;
-  color: white;
+  background-color:#d3b1a7;
+  color: black;
   border: none;
   display: flex;
   justify-content: center;
@@ -70,6 +90,12 @@ p {
   margin-right: auto;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.botao{
+  display: flex;
+  justify-content: space-around;
+
 }
 
 .sobre{
