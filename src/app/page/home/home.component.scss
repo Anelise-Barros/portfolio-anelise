@@ -128,6 +128,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   padding-bottom: 20px;
 }
 
@@ -141,3 +142,4 @@ p {
   background-size: 120%;
   filter: opacity(100%);
 }
+
