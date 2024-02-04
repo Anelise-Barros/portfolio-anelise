@@ -24,7 +24,6 @@ import { FooterComponent } from './layout/footer/footer.component';
 import { HomeComponent } from './page/home/home.component';
 import { CardComponent } from './componentes/card/card.component';
 
-
 @NgModule({
   declarations: [AppComponent, HeaderComponent, FooterComponent, HomeComponent, CardComponent],
   imports: [
@@ -50,4 +49,4 @@ import { CardComponent } from './componentes/card/card.component';
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule { }
