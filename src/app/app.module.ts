@@ -22,9 +22,10 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { HomeComponent } from './page/home/home.component';
+import { AppcardComponent } from './appcard/appcard.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent, HomeComponent],
+  declarations: [AppComponent, HeaderComponent, FooterComponent, HomeComponent, AppcardComponent, AppcardComponent ],
   imports: [
     MatDialogModule,
     MatTableModule,
