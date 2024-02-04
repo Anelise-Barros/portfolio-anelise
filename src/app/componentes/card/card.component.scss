@@ -1,27 +1,28 @@
 .celular {
   position: relative;
-  border: 3px solid #3E4357;
+  border: 3px solid #292b31;
   border-radius: 10px;
   width: 200px;
   height: 400px;
 
   display: flex;
   overflow: hidden;
-  margin-top: 10px;
-  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 70px;
 }
 
 .pc {
   position: relative;
-  border: 3px solid #3E4357;
+  border: 3px solid #292b31;
   border-radius: 10px;
   width: 400px;
   height: 242px;
 
   display: flex;
   overflow: hidden;
-  margin-top: 10px;
-  margin-left: 10px;
+  margin-top: 20px;
+  margin-left: 30px;
 }
 
 .card__img {

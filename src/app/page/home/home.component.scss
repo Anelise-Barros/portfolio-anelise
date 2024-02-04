@@ -95,6 +95,7 @@ p {
 .botao{
   display: flex;
   justify-content: center;
+  flex-direction: row;
   align-items: center;
 }
 
@@ -144,8 +145,18 @@ p {
   filter: opacity(100%);
 }
 
-.card {
-  margin: auto;
-  width: 300px;
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+
+}
+
+.proj {
+
+  display: flex;
+  flex-direction: row;
 
 }
