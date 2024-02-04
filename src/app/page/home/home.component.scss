@@ -134,6 +134,7 @@ p {
 
 .tec-img{
   padding: 5px;
+  margin-bottom: 5px;
 }
 
 .tec-img:hover{
@@ -143,3 +144,8 @@ p {
   filter: opacity(100%);
 }
 
+.card {
+  margin: auto;
+  width: 300px;
+
+}
