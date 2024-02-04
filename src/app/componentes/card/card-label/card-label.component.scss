@@ -1,0 +1,19 @@
+.card-label__container{
+	position: absolute;
+	top:80%;
+	right: 0;
+}
+
+.card-label__content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #d3b1a780;
+	color: #292b31;
+	font-size: 12px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+	font-weight: bold;
+	text-align: center;
+	height: 80px;
+	padding: 0px 10px;
+}

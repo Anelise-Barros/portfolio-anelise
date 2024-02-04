@@ -7,9 +7,8 @@
 
   display: flex;
   overflow: hidden;
-  margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 70px;
+  margin-left: 50px;
 }
 
 .pc {
@@ -22,8 +21,23 @@
   display: flex;
   overflow: hidden;
   margin-top: 20px;
-  margin-left: 30px;
+  margin-bottom: 20px;
+  margin-left: 50px;
 }
+
+.banner {
+  position: relative;
+  border: 3px solid #292b31;
+  border-radius: 10px;
+  width: 280px;
+  height: 360px;
+
+  display: flex;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
 
 .card__img {
   width: 100%;

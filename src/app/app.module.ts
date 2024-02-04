@@ -23,9 +23,10 @@ import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { HomeComponent } from './page/home/home.component';
 import { CardComponent } from './componentes/card/card.component';
+import { CardLabelComponent } from './componentes/card/card-label/card-label.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent, HomeComponent, CardComponent],
+  declarations: [AppComponent, HeaderComponent, FooterComponent, HomeComponent, CardComponent, CardLabelComponent],
   imports: [
     MatDialogModule,
     MatTableModule,

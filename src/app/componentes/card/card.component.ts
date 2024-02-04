@@ -17,10 +17,13 @@ export class CardComponent implements OnInit {
   @Input()
   linkProjeto: string = ""
 
+  @Input()
+  projetoLabel: string = ""
+
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit():void{
+}
 
 }
